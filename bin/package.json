@@ -1,0 +1,15 @@
+{
+    "name": "nginx-cache-router-generator",
+    "version": "1.0.0",
+    "description": "Generate nginx cache routes programmatically",
+    "main": "generator.js",
+    "scripts": {
+        "start": "node generator.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.3"
+    }
+}

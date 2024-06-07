@@ -1,0 +1,962 @@
+[
+    {
+        "url": "/moderator-web-api/chat-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/chats-deleted",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/chat/:userId",
+        "ttl": 30
+    },
+    {
+        "url": "/moderator-web-api/chat/message-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/chat/messages/deleted",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/comments-pagin",
+        "ttl": 20
+    },
+    {
+        "url": "/moderator-web-api/courses-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/course-days/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/course-shifts/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/courses/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/dashboard",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/attendance-histoy-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/attendance-export",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/attendance/reasons",
+        "ttl": 20
+    },
+    {
+        "url": "/moderator-web-api/group-history-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/group-students/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/group-students-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/group-student-total-price",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/teacher/group-students-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/teacher-students-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/group-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/groups-pagin-choose",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/group/timetable",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/group/timetable/by-rooms",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/group-attendance",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/group/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/group/student/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/group/room-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/group/room/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/task-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/task/students/:taskId",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/task-answers/:taskId",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/task-student",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/task-student/analitics",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/history-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/employee-activity-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/employee/notes-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/employees/salary",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/employee/transaction/totals/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/employee/transaction/totals",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/employee/transactions-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/employee/student-payments-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/employee/student-unpaid-payments-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/employee/student-payments-total",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/hr/employees-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/hr/employee/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/student-payments",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/integrations/sms-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/integrations/transactions/pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/integrations",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/sms-templates-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/notification-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/pbx/history",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/version",
+        "ttl": 30
+    },
+    {
+        "url": "/moderator-web-api/feedback-pagin",
+        "ttl": 20
+    },
+    {
+        "url": "/moderator-web-api/branches",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/field-settings",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/org-settings",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/settings/payment-methods",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/reasons",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/reasons/:type",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/receipt",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/statuses",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/payment-transactions",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/shift-bells-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/cashbox/payments-total",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/sms-devices",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/students-active/get-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/students-active/:name",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/students-archive/get-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/students-archive/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/student-history-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/students-parents/get-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/students-parents/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/student/transactions-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/student-list/students-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/student-list/students-debit-credit",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/students-pagin-choose",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/order-students-pagin-choose",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/student-groups/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/student-list/export/:name",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/student-list/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/student-list/referrals/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-web-api/students-new/get-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/profile",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-web-api/fcm-topics",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/chat-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/chats-deleted",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/chat/:userId",
+        "ttl": 30
+    },
+    {
+        "url": "/moderator-mobile-api/chat/message-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/chat/messages/deleted",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/comments-pagin",
+        "ttl": 20
+    },
+    {
+        "url": "/moderator-mobile-api/courses-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/course-days/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/course-shifts/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/courses/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/dashboard",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/attendance-histoy-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/attendance-export",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/attendance/reasons",
+        "ttl": 20
+    },
+    {
+        "url": "/moderator-mobile-api/group-history-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/group-students/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/group-students-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/group-student-total-price",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/teacher/group-students-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/teacher-students-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/group-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/groups-pagin-choose",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/group/timetable",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/group/timetable/by-rooms",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/group-attendance",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/group/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/group/student/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/group/room-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/group/room/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/task-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/task/students/:taskId",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/task-answers/:taskId",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/task-student",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/task-student/analitics",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/history-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/employee-activity-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/employee/notes-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/employees/salary",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/employee/transaction/totals/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/employee/transaction/totals",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/employee/transactions-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/employee/student-payments-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/employee/student-unpaid-payments-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/employee/student-payments-total",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/hr/employees-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/hr/employee/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/student-payments",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/integrations/sms-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/integrations/transactions/pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/integrations",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/sms-templates-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/notification-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/pbx/history",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/version",
+        "ttl": 30
+    },
+    {
+        "url": "/moderator-mobile-api/feedback-pagin",
+        "ttl": 20
+    },
+    {
+        "url": "/moderator-mobile-api/branches",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/field-settings",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/org-settings",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/settings/payment-methods",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/reasons",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/reasons/:type",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/receipt",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/statuses",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/payment-transactions",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/shift-bells-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/cashbox/payments-total",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/sms-devices",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/students-active/get-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/students-active/:name",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/students-archive/get-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/students-archive/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/student-history-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/students-parents/get-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/students-parents/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/student/transactions-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/student-list/students-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/student-list/students-debit-credit",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/students-pagin-choose",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/order-students-pagin-choose",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/student-groups/:_id",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/student-list/export/:name",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/student-list/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/student-list/referrals/export",
+        "ttl": 10
+    },
+    {
+        "url": "/moderator-mobile-api/students-new/get-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/profile",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/fcm-topics",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/analitics/students/total",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/analitics/students",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/chat-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/chats-deleted",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/chat-by-user/:userId",
+        "ttl": 20
+    },
+    {
+        "url": "/teacher-api/chat/messages/deleted",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/attendance/reasons",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/course-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/groups-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/lessons-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/room-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/task-answers/:taskId",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/task-student",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/news-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/notification-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/unseen-count",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/orders-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/reasons/:type",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/role",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/version",
+        "ttl": 30
+    },
+    {
+        "url": "/teacher-api/organization-branches",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/profile",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/fcm-topics",
+        "ttl": 30
+    },
+    {
+        "url": "/teacher-api/employees-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/employee/student-payments-pagin",
+        "ttl": 30
+    },
+    {
+        "url": "/teacher-api/employee/student-payments-total",
+        "ttl": 30
+    },
+    {
+        "url": "/teacher-api/student-categories",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/students-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/students-pagin-details",
+        "ttl": 10
+    },
+    {
+        "url": "/teacher-api/group/students-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/surveys",
+        "ttl": 30
+    },
+    {
+        "url": "/teacher-api/transaction",
+        "ttl": 20
+    },
+    {
+        "url": "/teacher-api/transactions-pagin",
+        "ttl": 20
+    },
+    {
+        "url": "/parent-api/organization-branches",
+        "ttl": 20
+    },
+    {
+        "url": "/parent-api/children",
+        "ttl": 20
+    },
+    {
+        "url": "/parent-api/child/groups",
+        "ttl": 20
+    },
+    {
+        "url": "/parent-api/child/tasks-pagin",
+        "ttl": 20
+    },
+    {
+        "url": "/parent-api/child/tasks/answer-rates",
+        "ttl": 20
+    },
+    {
+        "url": "/parent-api/child-lessons",
+        "ttl": 20
+    },
+    {
+        "url": "/parent-api/notification-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/parent-api/unseen-count",
+        "ttl": 10
+    },
+    {
+        "url": "/parent-api/version",
+        "ttl": 30
+    },
+    {
+        "url": "/parent-api/child/balance/transactions",
+        "ttl": 5
+    },
+    {
+        "url": "/parent-api/integrations/payment",
+        "ttl": 30
+    },
+    {
+        "url": "/parent-api/profile",
+        "ttl": 5
+    },
+    {
+        "url": "/parent-api/news-pagin",
+        "ttl": 30
+    },
+    {
+        "url": "/parent-api/child/transactions-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/student-api/chat-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/student-api/chats-deleted",
+        "ttl": 10
+    },
+    {
+        "url": "/student-api/chat/messages/deleted",
+        "ttl": 10
+    },
+    {
+        "url": "/student-api/groups",
+        "ttl": 10
+    },
+    {
+        "url": "/student-api/group-attendances-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/student-api/lesson/all",
+        "ttl": 10
+    },
+    {
+        "url": "/student-api/tasks-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/student-api/news-pagin",
+        "ttl": 10
+    },
+    {
+        "url": "/student-api/notification-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/student-api/unseen-count",
+        "ttl": 5
+    },
+    {
+        "url": "/student-api/referral/students-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/student-api/version",
+        "ttl": 30
+    },
+    {
+        "url": "/student-api/organization-branches",
+        "ttl": 20
+    },
+    {
+        "url": "/student-api/integrations/payment",
+        "ttl": 30
+    },
+    {
+        "url": "/student-api/transaction",
+        "ttl": 5
+    },
+    {
+        "url": "/student-api/transactions-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/student-api/branches",
+        "ttl": 30
+    },
+    {
+        "url": "/student-api/courses",
+        "ttl": 30
+    },
+    {
+        "url": "/student-api/course-days",
+        "ttl": 30
+    },
+    {
+        "url": "/student-api/course-shifts",
+        "ttl": 30
+    },
+    {
+        "url": "/student-api/details",
+        "ttl": 30
+    }
+]

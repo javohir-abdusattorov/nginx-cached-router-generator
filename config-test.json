@@ -1,0 +1,22 @@
+[
+    {
+        "url": "/moderator-web-api/chat-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/moderator-mobile-api/chat-pagin",
+        "ttl": 5
+    },
+    {
+        "url": "/teacher-api/attendance/reasons",
+        "ttl": 10
+    },
+    {
+        "url": "/parent-api/child/groups",
+        "ttl": 20
+    },
+    {
+        "url": "/student-api/chats-deleted",
+        "ttl": 10
+    }
+]
